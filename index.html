@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Bezier Lab</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/rxjs@^7/dist/bundles/rxjs.umd.min.js"></script>
+  </head>
+  <body>
+    <div class="control-panel">
+      <a id="increase-button" class="btn-floating waves-effect waves-light red"
+        ><i class="material-icons">add</i></a
+      >
+      <span id="dt-counter"></span>
+      <a id="decrease-button" class="btn-floating waves-effect waves-light red"
+        ><i class="material-icons">remove</i></a
+      >
+      <a id="metadata-button" class="btn-floating waves-effect waves-light red"
+        ><i class="material-icons">visibility</i></a
+      >
+      <a id="download-button" class="btn-floating waves-effect waves-light red"
+        ><i class="material-icons">download</i></a
+      >
+    </div>
+    <script src="globals.js"></script>
+    <script src="control-panel.js"></script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
